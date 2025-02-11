@@ -1,0 +1,18 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  width: 200px; /* Set the width */
+  height: 150px; /* Set the height */
+  text-align: center; /* Center the content */
+  border: 1px solid black;
+}
+
+video,
+audio {
+  max-width: 100%; /* Ensure the media fits within the cell */
+  max-height: 100%;
+}
