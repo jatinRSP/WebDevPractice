@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Elemnt Selector */
+        div {
+            background-color: red;
+        }
+
+        /* cclass Selector */
+        .yellow {
+            background-color: yellow;
+        }
+
+        /* ID selector */
+        #aqua {
+            background-color: aqua;
+        }
+
+        /* Child Selector */
+        div>p {
+            background-color: blueviolet;
+            color: beige;
+        }
+
+        /* Descendent Selector */
+        div h3 {
+            background-color: pink;
+        }
+
+        /* Universal Selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo selector */
+        a:visited {
+            color: yellow;
+        }
+
+        a:link {
+            background-color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>Styled using Elemnt selector</div>
+
+    <h1 class="yellow">Styled using class selector</h1>
+
+    <h2 id="aqua">Styled using id selector</h2>
+
+    <div>
+        <p>
+            Styled uisng child selector
+        </p>
+    </div>
+
+    <div>
+        <article>
+            <h3>
+                Styled using descendent selector
+            </h3>
+        </article>
+    </div>
+
+</body>
+
+</html>
